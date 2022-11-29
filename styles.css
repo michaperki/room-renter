@@ -42,4 +42,22 @@ h2 {
 	background-image: url('assets/png/airstream-desert.png');
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: 0 -10vh;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 90vh;
+	z-index: 0;
+}
+
+.main {
+	margin: 50vh 0 0 20vw;
+	color: #FFFFF3;
+	text-shadow: 2px 2px black;
+	width: 90vw;
+}
+
+.main input {
+	width: 80%;
+	height: 5vh;
 }
