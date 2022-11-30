@@ -60,4 +60,88 @@ h2 {
 .main input {
 	width: 80%;
 	height: 5vh;
+	background: url(assets/svg/search-solid.svg);
+	background-repeat: no-repeat;
+	background-size: 2.5vh;
+	background-position: 1vh;
+	background-color: white;
+	padding-left: 3em;
+
+}
+
+/* How it works Page */
+
+.how-it-works {
+	margin-top: 90vh;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.how-it-works > .row {
+	margin: 0 auto;
+}
+
+.how-it-works .step {
+	margin-bottom:  2em;
+}
+
+.how-it-works p {
+	font-weight:  bold;
+	text-transform:  uppercase;
+	margin-top:  1em;
+}
+
+/* Testimonial Page */
+
+.testimonial {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.testimonial .video {
+	margin:  0 auto;
+	margin-bottom: 1em;
+}
+
+.testimonial .btn {
+	max-width: 300px;
+	width: 10vw;
+	min-width: 200px;
+	height: 4em;
+	line-height: em;
+}
+
+@media (min-width:  768px) {
+
+	.testimonial .btn {
+		margin-top:  45%;
+	}
+}
+.chevron {
+  text-align: center;
+}
+/* Footer */
+
+nav.footer {
+  color: #FFFFF3;
+  background:#454545;
+  width: 100vw;
+  padding: 2em;
+  letter-spacing: 1px;
+}
+
+nav.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav.footer a {
+  font-decoration: none;
+  color: #FFFFF3;
+}
+
+nav.footer h6 {
+  font-weight: bold;
+  margin: 2em 0;
+  letter-spacing: 2px;
 }
